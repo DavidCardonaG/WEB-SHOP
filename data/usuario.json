@@ -23,6 +23,18 @@
       "image2": "https://lukshop.vteximg.com.br/arquivos/ids/386383-850-1054/36_130B010_021100_0.jpg?v=637395804357830000",
       "image3": "https://lukshop.vteximg.com.br/arquivos/ids/386453-850-1054/36_130B010_021100_5.jpg?v=637395804464070000",
       "precio": "50.00"
+    },
+    {
+      "nombre": "Ana",
+      "correo": "ana@gmail.com",
+      "celular": "3109807735",
+      "product": "Crown Sweatshirt",
+      "description": "Let them know you’re 90s royalty with this official The Fresh Prince crown pattern sweater. Throw vintage vibes that Uncle Phil would approve of. Featuring woven The Fresh Prince logo on chest. Navy crown print crew neck sweatshirt with white ribbed collar and waist band. Cotton/Poly blend.",
+      "image": "https://res.cloudinary.com/cardonagarciadavid11/image/upload/v1630441427/11_d529jr.png",
+      "image2": "https://res.cloudinary.com/cardonagarciadavid11/image/upload/v1630441427/11_d529jr.png",
+      "image3": "https://res.cloudinary.com/cardonagarciadavid11/image/upload/v1630420340/4_viir3t.png",
+      "precio": "80.00",
+      "id": 3
     }
   ]
-} 
+}
