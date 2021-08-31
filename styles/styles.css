@@ -218,4 +218,21 @@ top: 0px;
     margin-left: 3rem;
     margin-bottom: 3rem;
 }
+.title-2{
+    width: 1366px;
+height: 80px;
+left: 0px;
+top: 3212px;
+margin-left: 9rem;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 75px;
+line-height: 80px;
+text-align: center;
+letter-spacing: -0.02em;
+color: #1D1D1D;
+
+}
 

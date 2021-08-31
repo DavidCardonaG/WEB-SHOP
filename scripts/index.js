@@ -60,6 +60,7 @@ const getImgMini = async() => {
             console.log(image,producto,precio);
             imgMiniatura.innerHTML += `
             <div class="item">
+
                  <div class="card-img">
                      <img src="${image}">
                        <div class="letter"
