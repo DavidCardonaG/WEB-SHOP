@@ -38,11 +38,14 @@ const getLocalStorage = () =>{
     let carritoLocalStorage = JSON.parse(localStorage.getItem('Carrito'));
     //console.log(carritoLocalStorage);
     carritoLocalStorage.map(carrito => {
-        const {fechaCompra,comprador,imagen} = carrito;
+        const {fechaCompra,comprador,imagen,nroProductos,valorProducto,compraTotal} = carrito;
         listarCarrito.innerHTML += `
                             <td>${fechaCompra}</td>
                             <td>${comprador}</td>
                             <td>${imagen}</td>
+                            <td>${nroProductos}</td>
+                            <td>${valorProducto}</td>
+                            <td>${compraTotal}</td>
         `   
      })
 }
