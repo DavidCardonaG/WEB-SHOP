@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    /* width: 1366px; */
+}
+#img_principe{
+    width: 1366px;
+    height: 806px;
+    margin-left:10rem;
+}
+.container_total {
+	width: 90%;
+	margin: auto;
+}
+
+header {
+	padding: 20px 0;
+}
+header .container_total{
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header nav a {
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+    font-size: 1.5rem;
+    font-family: Poppins;
+}
+.logotipos{
+    Background-color: #1d1d1d;
+    width: 100%;
+    height: 320px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}

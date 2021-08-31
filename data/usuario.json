@@ -1,0 +1,28 @@
+{
+  "USER": [
+    {
+      "nombre": "Juan",
+      "correo": "Juan@gmail.com",
+      "celular": "3104027113",
+      "product": "SHORT TIRO 21",
+      "description": "Too good to be used alone on the court. The adidas Tiro pants debuted as a training garment, but now they are part of urban fashion. Zippers at the ankles allow you to put it on without having to remove your tennis shoes. It is made of absorbent AEROREADY fabric that is responsible for keeping your skin dry at all times and in any place.",
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/3cb8057730844247a568ac9800fa36fb_9366/Pantalon_Tiro_21_Azul_GE5425_21_model.jpg",
+      "image2": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/f09b60cda2e840b98fefac9800fa3d80_9366/Pantalon_Tiro_21_Azul_GE5425_22_model.jpg",
+      "image3": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/0317af1dea8647ffb858ac310103c462_9366/Pantalon_Tiro_21_Azul_GE5425_01_laydown.jpg",
+      "precio": "$90.00",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "nombre": "david cardona",
+      "correo": "ejemplo@gmail.com",
+      "celular": "3117895671",
+      "product": "jeans",
+      "description": "son unos jeans gris. muy comodos, con los cuales luciras un gran atuendo",
+      "image": "https://lukshop.vteximg.com.br/arquivos/ids/386383-850-1054/36_130B010_021100_0.jpg?v=637395804357830000",
+      "image2": "https://lukshop.vteximg.com.br/arquivos/ids/386383-850-1054/36_130B010_021100_0.jpg?v=637395804357830000",
+      "image3": "https://lukshop.vteximg.com.br/arquivos/ids/386453-850-1054/36_130B010_021100_5.jpg?v=637395804464070000",
+      "precio": "50.00"
+    }
+  ]
+}

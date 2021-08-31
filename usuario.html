@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles2.css">
+    <title>WEB SHOP</title>
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <img class="logotipo" src="https://res.cloudinary.com/dd01p9lb9/image/upload/v1630421872/Pri%CC%81ncipe_fresco_dhy4am.png">
+            <nav>
+                <a href="index.html" class="activo">HOME</a>
+                <a href="index.html">SHOP</a>
+                <a href="#">COLLECTIONS</a>
+            </nav>
+            <button><img src="./images/Vector.png"></button>
+            <button><img src="./images/vector2.png"></button>
+        </div>
+    </header>
+    <div class="title">
+        <h1>BIENVENIDO A PRINCIPE FRESCO</h1>
+    </div>
+    <form class="form" id="formulario">
+        <div class="inputs">
+            <div class="input-title">
+                <h2>REGISTRA TU PRODUCTO</h2>
+            </div>
+        <div class="inputs">
+            <label class="input-text">Nombre</label>
+            <input id="name" class="input" type="text" placeholder="Ingrese su Nombre">
+        </div>
+        <div class="inputs">
+            <label class="input-text">Correo electrónico</label>
+            <input id="email" class="input" type="email" placeholder="Ingrese su correo electrónico">
+        </div>
+        <div class="inputs">
+            <label class="input-text">Télefono</label>
+            <input id="telefono" class="input" type="number" placeholder="Ingrese su Télefono">
+        </div>
+        <div class="inputs">
+            <label class="input-text">Producto</label>
+            <input id="producto" class="input" type="text" placeholder="Ingrese el nombre del producto">
+        </div>
+        <div class="inputs">
+            <label class="input-text">Descripción</label>
+            <input id="description" class="input" type="text" placeholder="Ingrese breve descripción del producto">
+        </div>
+        <div class="inputs">
+            <label class="input-text">Imagen principal</label>
+            <input id="image" class="input" type="text" placeholder="Ingrese el link de su imagen">
+        </div>
+        <div class="inputs">
+            <label class="input-text">Imagen secundaria</label>
+            <input id="image2" class="input" type="text" placeholder="Ingrese el link de su imagen">
+        </div>
+        <div class="inputs">
+            <label class="input-text">Imagen terciaria</label>
+            <input id="image3" class="input" type="text" placeholder="Ingrese el link de su imagen">
+        </div>
+        <div class="inputs">
+            <label class="input-text">Precio</label>
+            <input id="precio" class="input" type="number" placeholder="Ingrese el precio del producto">
+        </div>
+        <div class="inputs">
+        <label class="input-text" id="label-edit" for="id">ID</label>
+        <input id="id" name="id"  type="text" placeholder="" readonly>
+        </div>
+
+        <div class="btn-list">
+        
+            <button id="btnEditar" type="button" class="btn">EDITAR PRODUCTO</button>
+            <button id="btnGuardar" type="submit" class="btn">REGISTAR PRODUCTO</button>
+            <button id="btnBuscar" type="button" class="btn">BUSCAR PRODUCTO</button>
+            <button id="btnEliminar" type="button" class="btn">ELIMINAR PRODUCTO</button>
+        </div>
+    </form>
+
+<script src="./scripts/usuario.js"></script>
+</body>
+</html>
