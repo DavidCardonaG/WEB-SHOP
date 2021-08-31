@@ -54,14 +54,16 @@ header nav a:hover
 
 .wrapper {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         grid-gap: 10px;
         grid-auto-rows: minmax(100px, auto);
         margin-top: 3rem;
+        margin-bottom:3rem;
 }
 .imgs{
     grid-column:1;
     grid-row: 1;
+    grid-column: 1/2;
     
 }
 .img{
@@ -169,3 +171,51 @@ font-size: 18px;
 line-height: 32px;
 margin-left: 3rem;
 }
+
+.item{
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+flex-direction: row;
+align-items: flex-start;
+}
+.card-img{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+position: static;
+width: 340px;
+height: 611px;
+left: 0px;
+top: 0px;
+margin: auto;
+cursor: pointer;
+}
+
+.card-img >img{
+    width: 340px;
+height: 511px;
+left: 0px;
+top: 0px;
+}
+.card-img :hover{
+    transform:translateY(-25px);
+    box-shadow: 0 12px 16px lightgray;
+}
+.letter{
+    font-size:1.5rem;
+    color: black;
+    font-family: Poppins;
+    margin-top:0.8rem;
+}
+.imgMini{
+    display:flex;
+    justify-content:center;
+    border-radius:4px;
+    margin: auto;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+}
+
