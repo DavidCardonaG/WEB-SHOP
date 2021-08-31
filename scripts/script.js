@@ -11,16 +11,13 @@ let IVA = 0.18; //pantalla del carrito de compras
 
 function calculoTotal(cantidadP,valorP,valorT,IVA){
     //calculo Subtotal
-    subtotal = cantidadProductos*valorProductos;
-    inputtext.value=subtotal; //campo para validar esta operación
-
+    subtotal = cantidadP*valorP;
+    inputtext.value = subtotal; //campo para validar esta operación
 
     //calculo Total
-    total = valorTotal+IVA;
-    totaltext.value = valorTotal + IVA;
+    total = eval(totaltext.value);
+    totaltext.value = valorT + IVA;
 }
-
-
 
 const capturarDatos = () =>{ //datos a guardar en el localStorage
     let fechaCompra = document.getElementById('fecha').value;
@@ -37,17 +34,17 @@ const capturarDatos = () =>{ //datos a guardar en el localStorage
 }
 
 const getLocalStorage = () =>{
-    // listarCarrito.innerHTML = '';
-    // let carritoLocalStorage = JSON.parse(localStorage.getItem('Carrito'));
-    // //console.log(carritoLocalStorage);
-    // carritoLocalStorage.map(carrito => {
-    //     const {fechaCompra,comprador} = carrito;
-    //     listarCarrito.innerHTML += `
-    //                         <td>${fechaCompra}</td>
-    //                         <td>${comprador}</td>
-    //                         <td>${""}</td>
-    //     `   
-    //  })
+    listarCarrito.innerHTML = '';
+    let carritoLocalStorage = JSON.parse(localStorage.getItem('Carrito'));
+    //console.log(carritoLocalStorage);
+    carritoLocalStorage.map(carrito => {
+        const {fechaCompra,comprador,imagen} = carrito;
+        listarCarrito.innerHTML += `
+                            <td>${fechaCompra}</td>
+                            <td>${comprador}</td>
+                            <td>${imagen}</td>
+        `   
+     })
 }
 
 

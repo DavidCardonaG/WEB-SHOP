@@ -57,4 +57,115 @@ header nav a:hover
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 10px;
         grid-auto-rows: minmax(100px, auto);
+        margin-top: 3rem;
+}
+.imgs{
+    grid-column:1;
+    grid-row: 1;
+    
+}
+.img{
+    grid-column:2;
+}
+.product-descrip{
+    grid-column: 3;
+    grid-row: 1;
+    
+}
+.title-grid{
+    width: 424px;
+    height: 56px;
+    left: 0px;
+    top: 0px;
+    font-family: Poppins; 
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.02em;
+    color: #1D1D1D;
+    margin-top:1rem;
+    margin-left:3rem;
+}
+.price{
+    width: 109px;
+    height: 40px;
+    left: 0px;
+    top: 72px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+    margin-left: 3rem;
+    color: #1D1D1D;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 424px;
+    height: 120px;
+    left: 0px;
+    top: 296px;
+}
+
+.black{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 10px;
+    position: static;
+    width: 424px;
+    height: 56px;
+    left: 0px;
+    top: 0px;
+    color:white;
+    background: #1D1D1D;
+    border-radius: 4px;
+    margin-top:2rem;
+    margin-left: 3rem;
+    font-size:22px;
+    font-family: Poppins;
+    line-height: 24px;
+    font-weight:bold;
+}
+.blue{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 10px;
+    position: static;
+    width: 424px;
+    height: 56px;
+    left: 0px;
+    top: 0px;
+    color:white;
+    background: #4276FB;
+    border-radius: 4px;
+    margin-top:0.5rem;
+    margin-left: 3rem;
+    font-size:22px;
+    font-family: Poppins;
+    line-height: 24px;
+    font-weight:bold;
+}
+
+.descrip{
+    width: 424px;
+height: 224px;
+left: 0px;
+top: 456px;
+margin-top:5rem;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 32px;
+margin-left: 3rem;
 }
