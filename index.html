@@ -10,17 +10,17 @@
 </head>
 
 <body>
-    <header class="menu">
-    <div class="container_total">
-            <img src="https://res.cloudinary.com/dd01p9lb9/image/upload/v1630421872/Pri%CC%81ncipe_fresco_dhy4am.png"
-                alt="no disponible">
+    <header>
+        <div class="contenedor">
+            <img class="logotipo" src="https://res.cloudinary.com/dd01p9lb9/image/upload/v1630421872/Pri%CC%81ncipe_fresco_dhy4am.png">
             <nav>
-                <a href="#">SHOP</a>
+                <a href="usuario.html" class="activo">PERFIL</a>
+                <a href="index.html">SHOP</a>
                 <a href="#">COLLECTIONS</a>
             </nav>
-            <img src="https://res.cloudinary.com/cardonagarciadavid11/image/upload/v1630428109/9_eatkw0.png" alt="">
-
-    </div>
+            <a href="usuario.html"><img src="./images/Vector.png"></a>
+            <a href="#"><img src="./images/vector2.png"></a>
+        </div>
     </header>
 
 
@@ -29,6 +29,22 @@
             <div class="card"></div>
         </div>
         <div class="detalle"></div>
+
+        <div class="row" id="items"></div>
+
+    <!-- <template id="template-peli">
+      <div class="card">
+        <h5></h5>
+          <img id="image" src="" alt="" class="img-thumbnail my-4"></img>
+          <img id="image2" src="" alt="" class="img-thumbnail my-4"></img>
+          <img id="image3" src="" alt="" class="img-thumbnail my-4"></img>
+          <p class="description"></p>
+          <p class="precio"></p>
+      </div>
+    </template>    -->
+    
+    
+    <div id="detail"></div>
 
     </div>
     <footer class="footer">
@@ -43,6 +59,7 @@
         </div>
     </footer>
     <script src="./scripts/script.js"></script>
+    <script src="./scripts/index.js"></script>
 </body>
 
 </html>

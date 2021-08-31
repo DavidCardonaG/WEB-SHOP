@@ -2,15 +2,13 @@
     margin:0;
     padding: 0;
 }
-body{
-    /* width: 1366px; */
-}
+
 #img_principe{
     width: 1366px;
     height: 806px;
     margin-left:10rem;
 }
-.container_total {
+.contenedor {
 	width: 90%;
 	margin: auto;
 }
@@ -18,16 +16,31 @@ body{
 header {
 	padding: 20px 0;
 }
-header .container_total{
-    display: flex;
+
+header .contenedor {
+	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
+
+header .logotipo {
+display: flex;
+align-items: center;
+
+color: #FF4C13;
+}
+
 header nav a {
 	color: rgb(0, 0, 0);
 	text-decoration: none;
+	margin-right: 15px;
     font-size: 1.5rem;
-    font-family: Poppins;
+    font-family: poppins;
+}
+
+header nav a:hover
+ {
+	color: rgb(110, 109, 109);
 }
 .logotipos{
     Background-color: #1d1d1d;
@@ -37,4 +50,11 @@ header nav a {
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
+}
+
+.wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
 }

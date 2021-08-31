@@ -3,13 +3,13 @@ let producto = document.getElementById('productos');
 let boton = document.getElementById('botonVaciar');
 let datosCompra = document.getElementById('datosCompra');//debería ser un boton que nos lleve a la pantalla para hacer la compra ¿no?
 let carrito = [];
-let cantidadProductos = 0; //pantalla del carrito de compras
-let valorProductos = 0; //pantalla del carrito de compras
-let valorTotal = 0; //pantalla del carrito de compras
+let cantidadProductos = document.getElementById('cantidadP').value; //pantalla del carrito de compras
+let valorProductos = document.getElementById('valorP').value; //pantalla del carrito de compras
+let valorTotal = document.getElementById('valorT').value; //pantalla del carrito de compras
 let IVA = 0.18; //pantalla del carrito de compras
 
 
-function calculoTotal(cantidadProductos,valorProductos,valorTotal,IVA){
+function calculoTotal(cantidadP,valorP,valorT,IVA){
     //calculo Subtotal
     subtotal = cantidadProductos*valorProductos;
     inputtext.value=subtotal; //campo para validar esta operación
@@ -17,7 +17,7 @@ function calculoTotal(cantidadProductos,valorProductos,valorTotal,IVA){
 
     //calculo Total
     total = valorTotal+IVA;
-
+    totaltext.value = valorTotal + IVA;
 }
 
 
