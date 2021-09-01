@@ -37,7 +37,7 @@ fetch('http://localhost:4100/ROPA') //No mover esta linea daña data js//
                     <p>${talla}</p>
                     </div>
                     <div class="buttons">
-                <button id="aggCarrito" class="black" >ADD TO CART</button>
+                <button id="aggCarrito" onclick=Negro() class="black" >ADD TO CART</button>
                 <button id="comprar" class="blue" >BUY IT NOW</button>
              </div>
                     <div class="descrip">
@@ -53,6 +53,9 @@ fetch('http://localhost:4100/ROPA') //No mover esta linea daña data js//
                 </div>
             </div>
             `
+            function Negro() {
+                alert('Holaaa');
+                        }
         })
         console.log(data);
     }
