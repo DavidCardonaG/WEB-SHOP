@@ -3,9 +3,9 @@ let producto = document.getElementById('productos');
 let boton = document.getElementById('botonVaciar');
 let datosCompra = document.getElementById('datosCompra');//debería ser un boton que nos lleve a la pantalla para hacer la compra ¿no?
 let carrito = [];
-let cantidadProductos = document.getElementById('cantidadP').value; //pantalla del carrito de compras
-let valorProductos = document.getElementById('valorP').value; //pantalla del carrito de compras
-let valorTotal = document.getElementById('valorT').value; //pantalla del carrito de compras
+let cantidadProductos = document.getElementById('cantidadP'); //pantalla del carrito de compras
+let valorProductos = document.getElementById('valorP'); //pantalla del carrito de compras
+let valorTotal = document.getElementById('valorT'); //pantalla del carrito de compras
 let IVA = 0.18; //pantalla del carrito de compras
 
 
@@ -20,7 +20,8 @@ function calculoTotal(cantidadP,valorP,valorT,IVA){
 }
 
 const capturarDatos = () =>{ //datos a guardar en el localStorage
-    let fechaCompra = document.getElementById('fecha').value;
+    let fechaCompra = new Date();
+    document.write('Fecha: '+d.getDate(),'Año: '+d.getFullYear(),'Hora: '+d.getHours(),'Minutos: '+d.getMinutes(),'Segundos: '+d.getSeconds());
     let comprador = document.getElementById('comprador').value;
 
     let registro = {
@@ -35,13 +36,11 @@ const capturarDatos = () =>{ //datos a guardar en el localStorage
 
 const getLocalStorage = () =>{
     listarCarrito.innerHTML = '';
-    let carritoLocalStorage = JSON.parse(localStorage.getItem('Carrito'));
+    // let carritoLocalStorage = JSON.parse(localStorage.getItem('producto'));
     //console.log(carritoLocalStorage);
     carritoLocalStorage.map(carrito => {
-        const {fechaCompra,comprador,imagen,nroProductos,valorProducto,compraTotal} = carrito;
+        const {imagen,nroProductos,valorProducto,compraTotal} = carrito;
         listarCarrito.innerHTML += `
-                            <td>${fechaCompra}</td>
-                            <td>${comprador}</td>
                             <td>${imagen}</td>
                             <td>${nroProductos}</td>
                             <td>${valorProducto}</td>
@@ -58,10 +57,14 @@ document.addEventListener('DOMContentLoaded',getLocalStorage);
 
 
 function agregarProducto() { //boton en la pantalla de productos
+    let agg = document.getElementById('aggCarrito').value; 
+    agg.addEventListener('click',() => {
+        alert('holaaaa');
     if(!existe(producto.id)){
         productos.push(producto);
         guardarProductos();
     }
+})
 }
 
 function quitarProducto() { //boton en la pantalla del carrito de compras

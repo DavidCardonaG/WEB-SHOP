@@ -34,7 +34,7 @@ header nav a:hover{
 
 
 
-#listarC{
+#listarCarrito{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: bold;
@@ -44,4 +44,5 @@ header nav a:hover{
     letter-spacing: -0.02em;
     margin-left: 0px;
     margin-top: 100px;
+    background-color: black;
 }
