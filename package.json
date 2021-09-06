@@ -1,0 +1,32 @@
+{
+  "name": "web-shop",
+  "version": "1.0.0",
+  "description": "Evento onSubmit \r <!-- Este evento se encarga de ejecutar un determinado código de javascript al realizarse el envío de un formulario. El ejemplo mas claro de utilización de este evento es evitar que un formulario sea enviado si determinadas condiciones no son cumplidas. -->",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidCardonaG/WEB-SHOP.git"
+  },
+  "author": "David",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidCardonaG/WEB-SHOP/issues"
+  },
+  "homepage": "https://github.com/DavidCardonaG/WEB-SHOP#readme",
+  "dependencies": {
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.15.5",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.15.4",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.52.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.1.0"
+  }
+}
